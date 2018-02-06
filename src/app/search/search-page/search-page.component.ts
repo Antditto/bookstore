@@ -30,6 +30,7 @@ export class SearchPageComponent implements OnInit {
 
   searchBooks(query: string) {
     this.books.length = 0;
+    this.counter = 0;
     this.showSpinner = true;
     this.noResults = false;
     this.newSearch = false;
@@ -55,7 +56,6 @@ export class SearchPageComponent implements OnInit {
 
   limitResults() {
     for (let i = this.counter + 1; i < this.response.length; i++) {
-      console.log(this.response)
       this.books.push(this.response[i]);
       if (i % 10 == 0) break;
     }
