@@ -20,6 +20,8 @@ export class SearchPageComponent implements OnInit {
   showSpinner = false;
   newSearch = true;
   noResults = false;
+  counter: number;
+  response: any[];
 
   onSubmit() {
     this.router.navigate(['/search'], { queryParams: this.search }).then(this.searchBooks(this.queryString));
@@ -40,13 +42,22 @@ export class SearchPageComponent implements OnInit {
 
   handleSuccess(data) {
     this.booksFound = true;
-    this.books = this.searchPipe.transform(data.results, this.queryString);
-    if (this.books.length === 0) {
-      this.noResults = true;
+    this.response = this.searchPipe.transform(data.results, this.queryString);
+    if (this.response.length === 0) {
+      return this.noResults = true;
     } else {
       this.noResults = false;
     }
+    this.limitResults();
+  }
 
+  limitResults() {
+    for (let i = this.counter + 1; i < this.response.length; i++) {
+      console.log(this.response)
+      this.books.push(this.response[i]);
+      if (i % 10 == 0) break;
+    }
+    this.counter += 10;
   }
 
   handleError(error) {
@@ -57,8 +68,11 @@ export class SearchPageComponent implements OnInit {
     private activeRoute: ActivatedRoute,
     private router: Router,
     private searchService: SearchService,
-    private searchPipe: Ng2SearchPipe
-  ) { }
+    private searchPipe: Ng2SearchPipe,
+  ) {
+    this.counter = 0;
+    this.books = [];
+  }
 
   ngOnInit() {
     this.activeRoute.queryParams.subscribe((params: Params) => {
