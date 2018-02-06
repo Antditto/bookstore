@@ -28,6 +28,7 @@ export class SearchPageComponent implements OnInit {
   }
 
   searchBooks(query: string) {
+    this.books.length = 0;
     this.showSpinner = true;
     this.noResults = false;
     this.newSearch = false;
@@ -44,7 +45,7 @@ export class SearchPageComponent implements OnInit {
     this.booksFound = true;
     this.response = this.searchPipe.transform(data.results, this.queryString);
     if (this.response.length === 0) {
-      return this.noResults = true;
+      this.noResults = true;
     } else {
       this.noResults = false;
     }
