@@ -1,0 +1,36 @@
+<mat-card>
+  <form (ngSubmit)="onSubmit()" #searchForm="ngForm">
+    <mat-form-field class="search-field">
+      <input matInput placeholder="Search:" type="text" id="params" [(ngModel)]="search.params" name="params" #params="ngModel"/>
+      <mat-icon matSuffix>search</mat-icon>
+      <button type="submit" style="display:none">hidden submit</button>
+    </mat-form-field>
+  </form>
+</mat-card>
+
+<br>
+<br>
+
+<div style="height: 100px;">
+
+</div>
+<div class="main">
+  <mat-spinner [style.display]="showSpinner ? 'block' : 'none'"></mat-spinner>
+  <div class="column">
+    <app-search-card *ngFor="let book of books" [book]="book" dnd-draggable [dragEnabled]="true" [dragData]="book" [dropZones]="['cart']" #cmp></app-search-card>
+    <mat-card class="not-found" *ngIf="noResults">
+      <h1>No Results Found for {{queryString}}</h1>
+    </mat-card>
+    <mat-card class="buffer" *ngIf="newSearch">
+      <h1>Please Search For a Book by Title or Author</h1>
+      <span class="subtext">(Try Hemingway or Fitzgerald)</span>
+    </mat-card>
+  </div>
+
+  <button mat-raised-button color="primary" *ngIf="!noResults && !newSearch" class="bottom">Load More</button>
+
+  <button mat-fab class="cart-button" dnd-droppable (onDropSuccess)="this.child.addedToCart($event.dragData)" [dropZones]="['cart']">
+    <mat-icon aria-label="add to shopping cart">add_shopping_cart</mat-icon>
+</button>
+
+</div>

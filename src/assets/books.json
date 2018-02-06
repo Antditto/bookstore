@@ -1,0 +1,325 @@
+{
+  "results": [
+    {
+      "price": "3.74",
+      "title": "The Old Man and the Sea",
+      "author": "Ernest Hemingway",
+      "image_url": "https://images.gr-assets.com/books/1329189714m/2165.jpg",
+      "small_image_url": "https://images.gr-assets.com/books/1329189714s/2165.jpg",
+      "_type": "Book"
+    },
+    {
+      "price": "3.83",
+      "title": "The Sun Also Rises (Fiesta)",
+      "author": "Ernest Hemingway",
+      "image_url": "https://images.gr-assets.com/books/1509802323m/3876.jpg",
+      "small_image_url": "https://images.gr-assets.com/books/1509802323s/3876.jpg",
+      "_type": "Book"
+    },
+    {
+      "price": "3.96",
+      "title": "For Whom the Bell Tolls",
+      "author": "Ernest Hemingway",
+      "image_url": "https://images.gr-assets.com/books/1492591524m/46170.jpg",
+      "small_image_url": "https://images.gr-assets.com/books/1492591524s/46170.jpg",
+      "_type": "Book"
+    },
+    {
+      "price": "3.79",
+      "title": "A Farewell to Arms",
+      "author": "Ernest Hemingway",
+      "image_url": "https://images.gr-assets.com/books/1313714836m/10799.jpg",
+      "small_image_url": "https://images.gr-assets.com/books/1313714836s/10799.jpg",
+      "_type": "Book"
+    },
+    {
+      "price": "4.04",
+      "title": "A Moveable Feast",
+      "author": "Ernest Hemingway",
+      "image_url": "https://images.gr-assets.com/books/1427463201m/4631.jpg",
+      "small_image_url": "https://images.gr-assets.com/books/1427463201s/4631.jpg",
+      "_type": "Book"
+    },
+    {
+      "price": "3.80",
+      "title": "Mrs. Hemingway",
+      "author": "Naomi Wood",
+      "image_url": "https://images.gr-assets.com/books/1410759569m/18114165.jpg",
+      "small_image_url": "https://images.gr-assets.com/books/1410759569s/18114165.jpg",
+      "_type": "Book"
+    },
+    {
+      "price": "3.83",
+      "title": "Hemingway's Girl",
+      "author": "Erika Robuck",
+      "image_url": "https://images.gr-assets.com/books/1347465566m/13485500.jpg",
+      "small_image_url": "https://images.gr-assets.com/books/1347465566s/13485500.jpg",
+      "_type": "Book"
+    },
+    {
+      "price": "4.28",
+      "title": "The Complete Short Stories",
+      "author": "Ernest Hemingway",
+
+      "image_url": "https://images.gr-assets.com/books/1516004536m/4625.jpg",
+      "small_image_url": "https://images.gr-assets.com/books/1516004536s/4625.jpg",
+      "_type": "Book"
+    },
+    {
+      "price": "3.88",
+      "title": "The Snows of Kilimanjaro and Other Stories",
+      "author": "Ernest Hemingway",
+      "image_url": "https://images.gr-assets.com/books/1400889884m/4645.jpg",
+      "small_image_url": "https://images.gr-assets.com/books/1400889884s/4645.jpg",
+      "_type": "Book"
+    },
+    {
+      "price": "3.57",
+      "title": "To Have and Have Not",
+      "author": "Ernest Hemingway",
+      "image_url": "https://images.gr-assets.com/books/1400886825m/4630.jpg",
+      "small_image_url": "https://images.gr-assets.com/books/1400886825s/4630.jpg",
+      "_type": "Book"
+    },
+    {
+      "price": "3.80",
+      "title": "In Our Time",
+      "author": "Ernest Hemingway",
+      "image_url": "https://images.gr-assets.com/books/1369859426m/4652.jpg",
+      "small_image_url": "https://images.gr-assets.com/books/1369859426s/4652.jpg",
+      "_type": "Book"
+    },
+    {
+      "price": "4.05",
+      "title": "Ernest Hemingway on Writing",
+      "author": "Ernest Hemingway",
+      "image_url": "https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png",
+      "small_image_url": "https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png",
+      "_type": "Book"
+    },
+    {
+      "price": "3.74",
+      "title": "The Garden of Eden",
+      "author": "Ernest Hemingway",
+      "image_url": "https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png",
+      "small_image_url": "https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png",
+      "_type": "Book"
+    },
+    {
+      "price": "4.10",
+      "title": "Papa Hemingway",
+      "author": "A.E. Hotchner",
+      "image_url": "https://images.gr-assets.com/books/1322677932m/10791.jpg",
+      "small_image_url": "https://images.gr-assets.com/books/1322677932s/10791.jpg",
+      "_type": "Book"
+    },
+    {
+      "price": "3.87",
+      "title": "Islands in the Stream",
+      "author": "Ernest Hemingway",
+      "image_url": "https://images.gr-assets.com/books/1400891142m/4633.jpg",
+      "small_image_url": "https://images.gr-assets.com/books/1400891142s/4633.jpg",
+      "_type": "Book"
+    },
+    {
+      "price": "3.67",
+      "title": "Men Without Women",
+      "author": "Ernest Hemingway",
+      "image_url": "https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png",
+      "small_image_url": "https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png",
+      "_type": "Book"
+    },
+    {
+      "price": "3.36",
+      "title": "Hemingway's Chair",
+      "author": "Michael Palin",
+      "image_url": "https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png",
+      "small_image_url": "https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png",
+      "_type": "Book"
+    },
+    {
+      "price": "3.57",
+      "title": "Green Hills of Africa",
+      "author": "Ernest Hemingway",
+      "image_url": "https://images.gr-assets.com/books/1422958525m/10776.jpg",
+      "small_image_url": "https://images.gr-assets.com/books/1422958525s/10776.jpg",
+      "_type": "Book"
+    },
+    {
+      "price": "3.70",
+      "title": "Killing Hemingway",
+      "author": "Arthur Byrne",
+      "image_url": "https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png",
+      "small_image_url": "https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png",
+      "_type": "Book"
+    },
+    {
+      "price": "3.70",
+      "title": "Death in the Afternoon",
+      "author": "Ernest Hemingway",
+      "image_url": "https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png",
+      "small_image_url": "https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png",
+      "_type": "Book"
+    },
+    {
+      "price": "3.90",
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "image_url": "https://images.gr-assets.com/books/1490528560m/4671.jpg",
+      "small_image_url": "https://images.gr-assets.com/books/1490528560s/4671.jpg",
+      "_type": "Book"
+    },
+    {
+      "price": "3.83",
+      "title": "Z: A Novel of Zelda Fitzgerald",
+      "author": "Therese Anne Fowler",
+      "image_url": "https://images.gr-assets.com/books/1396815892m/15994634.jpg",
+      "small_image_url": "https://images.gr-assets.com/books/1396815892s/15994634.jpg",
+      "_type": "Book"
+    },
+    {
+      "price": "3.83",
+      "title": "Tender Is the Night",
+      "author": "F. Scott Fitzgerald",
+      "image_url": "https://images.gr-assets.com/books/1438797669m/46164.jpg",
+      "small_image_url": "https://images.gr-assets.com/books/1438797669s/46164.jpg",
+      "_type": "Book"
+    },
+    {
+      "price": "3.68",
+      "title": "This Side of Paradise",
+      "author": "F. Scott Fitzgerald",
+      "image_url": "https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png",
+      "small_image_url": "https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png",
+      "_type": "Book"
+    },
+    {
+      "price": "4.21",
+      "title": "The Fitzgeralds and the Kennedys: An American Saga",
+      "author": "Doris Kearns Goodwin",
+      "image_url": "https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png",
+      "small_image_url": "https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png",
+      "_type": "Book"
+    },
+    {
+      "price": "3.75",
+      "title": "The Beautiful and Damned",
+      "author": "F. Scott Fitzgerald",
+      "image_url": "https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png",
+      "small_image_url": "https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png",
+      "_type": "Book"
+    },
+    {
+      "price": "3.75",
+      "title": "Slow Burn (The Fitzgerald Family, #1)",
+      "author": "E.B. Walters",
+      "image_url": "https://images.gr-assets.com/books/1299658259m/10750656.jpg",
+      "small_image_url": "https://images.gr-assets.com/books/1299658259s/10750656.jpg",
+      "_type": "Book"
+    },
+    {
+      "price": "3.53",
+      "title": "The Curious Case of Benjamin Button",
+      "author": "F. Scott Fitzgerald",
+      "image_url": "https://images.gr-assets.com/books/1331235364m/747746.jpg",
+      "small_image_url": "https://images.gr-assets.com/books/1331235364s/747746.jpg",
+      "_type": "Book"
+    },
+    {
+      "price": "3.58",
+      "title": "Save Me the Waltz",
+      "author": "Zelda Fitzgerald",
+      "image_url": "https://images.gr-assets.com/books/1329118499m/150104.jpg",
+      "small_image_url": "https://images.gr-assets.com/books/1329118499s/150104.jpg",
+      "_type": "Book"
+    },
+    {
+      "price": "3.97",
+      "title": "Penelope Fitzgerald: A Life",
+      "author": "Hermione Lee",
+      "image_url": "https://images.gr-assets.com/books/1371431803m/17612573.jpg",
+      "small_image_url": "https://images.gr-assets.com/books/1371431803s/17612573.jpg",
+      "_type": "Book"
+    },
+    {
+      "price": "4.19",
+      "title": "A Kiss from Mr Fitzgerald",
+      "author": "Natasha Lester",
+      "image_url": "https://images.gr-assets.com/books/1454979710m/28965429.jpg",
+      "small_image_url": "https://images.gr-assets.com/books/1454979710s/28965429.jpg",
+      "_type": "Book"
+    },
+    {
+      "price": "3.40",
+      "title": "The Bookshop",
+      "author": "Penelope Fitzgerald",
+      "image_url": "https://images.gr-assets.com/books/1267596033m/319388.jpg",
+      "small_image_url": "https://images.gr-assets.com/books/1267596033s/319388.jpg",
+      "_type": "Book"
+    },
+    {
+      "price": "3.73",
+      "title": "The Odyssey: Translated by Robert Fitzgerald",
+      "author": "Robert Fitzgerald",
+      "image_url": "https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png",
+      "small_image_url": "https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png",
+      "_type": "Book"
+    },
+    {
+      "price": "4.23",
+      "title": "The Short Stories",
+      "author": "F. Scott Fitzgerald",
+      "image_url": "https://images.gr-assets.com/books/1400891315m/4662.jpg",
+      "small_image_url": "https://images.gr-assets.com/books/1400891315s/4662.jpg",
+      "_type": "Book"
+    },
+    {
+      "price": "3.60",
+      "title": "Offshore",
+      "author": "Penelope Fitzgerald",
+      "image_url": "https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png",
+      "small_image_url": "https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png",
+      "_type": "Book"
+    },
+    {
+      "price": "3.91",
+      "title": "Zelda Fitzgerald: Her Voice in Paradise",
+      "author": "Sally Cline",
+      "image_url": "https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png",
+      "small_image_url": "https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png",
+      "_type": "Book"
+    },
+    {
+      "price": "3.47",
+      "title": "The Blue Flower",
+      "author": "Penelope Fitzgerald",
+      "image_url": "https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png",
+      "small_image_url": "https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png",
+      "_type": "Book"
+    },
+    {
+      "price": "4.17",
+      "title": "The Great Brain (Great Brain #1)",
+      "author": "John D. Fitzgerald",
+      "image_url": "https://images.gr-assets.com/books/1311781413m/119247.jpg",
+      "small_image_url": "https://images.gr-assets.com/books/1311781413s/119247.jpg",
+      "_type": "Book"
+    },
+    {
+      "price": "3.66",
+      "title": "The Love of the Last Tycoon",
+      "author": "F. Scott Fitzgerald",
+      "image_url": "https://images.gr-assets.com/books/1321018965m/16857.jpg",
+      "small_image_url": "https://images.gr-assets.com/books/1321018965s/16857.jpg",
+      "_type": "Book"
+    },
+    {
+      "price": "3.71",
+      "title": "Veil of Roses",
+      "author": "Laura Fitzgerald",
+      "image_url": "https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png",
+      "small_image_url": "https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png",
+      "_type": "Book"
+    }
+  ]
+}

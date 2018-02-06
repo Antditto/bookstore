@@ -1,0 +1,58 @@
+app-search-card {
+  margin: 10px auto;
+}
+.bottom{
+margin: 0 auto;
+}
+.example-icon {
+  padding: 0 14px;
+}
+.search-field {
+  width: 100%;
+}
+.mat-card {
+  padding-bottom: 0px;
+  padding-top: 0px;
+  position: fixed;
+  top: 64px;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+.cart-button {
+  position: fixed;
+  bottom: 8%;
+  height: 65px;
+  right: 8%;
+  width: 65px;
+}
+.column {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+.main {
+  margin: 0 auto;
+  width: 98%;
+}
+.buffer{
+  color: #603DB0;
+  height: 100px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+.not-found{
+  color: #603DB0;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+.mat-spinner {
+  margin: 0 auto;
+}
+.subtext{
+  font-size: 20px;
+  font-weight: normal;
+  padding-bottom: 20px;
+}
