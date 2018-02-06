@@ -10,16 +10,13 @@ export class SearchCardComponent implements OnInit {
   added = false;
 
   addedToCart(book) {
-    console.log(book);
     this.added = true;
     let a = [];
     a.push(book);
-    console.log(a);
     console.log(JSON.parse(localStorage.getItem('cart')))
-    if (!JSON.parse(localStorage.getItem('cart'))) {
+    if (localStorage.getItem('cart')) {
       a.push(JSON.parse(localStorage.getItem('cart')))
     }
-    console.log(a)
     localStorage.setItem('cart', JSON.stringify(a));
     console.log(localStorage.getItem('cart'));
   }
