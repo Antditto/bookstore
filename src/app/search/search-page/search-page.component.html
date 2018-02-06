@@ -27,7 +27,7 @@
     </mat-card>
   </div>
 
-  <button mat-raised-button color="primary" *ngIf="!noResults && !newSearch" class="bottom" (click)="limitResults()" [disabled]="counter>=response.length">Load More</button>
+  <button mat-raised-button color="primary" *ngIf="this.books.length > 0" class="bottom" (click)="limitResults()" [disabled]="counter>=response.length">Load More</button>
 
   <button mat-fab class="cart-button" dnd-droppable (onDropSuccess)="this.child.addedToCart($event.dragData)" [dropZones]="['cart']">
     <mat-icon aria-label="add to shopping cart">add_shopping_cart</mat-icon>
