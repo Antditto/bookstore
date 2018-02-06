@@ -24,7 +24,8 @@ export class SearchPageComponent implements OnInit {
   response: any[];
 
   onSubmit() {
-    this.router.navigate(['/search'], { queryParams: this.search }).then(this.searchBooks(this.queryString));
+    this.router.navigate(['/search'], { queryParams: this.search }).then(() => { this.searchBooks(this.queryString);
+    });
   }
 
   searchBooks(query: string) {
