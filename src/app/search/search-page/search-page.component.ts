@@ -46,14 +46,11 @@ export class SearchPageComponent implements OnInit {
 
   handleSuccess(data) {
     this.booksFound = true;
-    console.log(data)
     this.response = this.searchPipe.transform(data.results, this.queryString);
     if (this.response.length === 0) {
-      console.log(this.response)
       this.noResults = true;
     } else {
       this.noResults = false;
-      console.log(this.response)
     }
     this.limitResults();
   }
