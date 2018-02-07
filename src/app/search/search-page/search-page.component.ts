@@ -46,21 +46,28 @@ export class SearchPageComponent implements OnInit {
 
   handleSuccess(data) {
     this.booksFound = true;
+    console.log(data)
     this.response = this.searchPipe.transform(data.results, this.queryString);
     if (this.response.length === 0) {
+      console.log(this.response)
       this.noResults = true;
     } else {
       this.noResults = false;
+      console.log(this.response)
     }
     this.limitResults();
   }
 
   limitResults() {
-    for (let i = this.counter + 1; i < this.response.length; i++) {
-      this.books.push(this.response[i]);
-      if (i % 10 == 0) break;
+    if (this.response.length > 1) {
+      for (let i = this.counter + 1; i < this.response.length; i++) {
+        this.books.push(this.response[i]);
+        if (i % 10 == 0) break;
+      }
+      this.counter += 10;
+    } else {
+      this.books = this.response;
     }
-    this.counter += 10;
   }
 
   handleError(error) {
