@@ -10,8 +10,8 @@ export class SearchCardComponent implements OnInit {
   @Input() book;
   added = false;
 
-  openSnackBar(book) {
-    this.snackBar.open(book.title, 'Added to Cart', {
+  openSnackBar(book, message) {
+    this.snackBar.open(book.title, message, {
       duration: 2000,
     });
   }
@@ -20,14 +20,14 @@ export class SearchCardComponent implements OnInit {
     book.added = true;
     this.added = true;
     let a = [];
-    let current = JSON.parse(localStorage.getItem('cart');
+    let current = JSON.parse(localStorage.getItem('cart'));
     a.push(book);
     if (!JSON.parse(localStorage.getItem('cart'))) {
       a.push(JSON.parse(localStorage.getItem('cart')))
     }
     a = a.concat(current);
     localStorage.setItem('cart', JSON.stringify(a));
-    this.openSnackBar(book);
+    this.openSnackBar(book, 'Added to Cart');
   }
 
   constructor(
@@ -35,6 +35,11 @@ export class SearchCardComponent implements OnInit {
   ) { }
 
   ngOnInit() {
+    setTimeout( () => {
+      this.snackBar.open('Drag a book to the cart', 'it will be added for you!', {
+        duration: 4000,
+      });
+    }, 1000);
   }
 
 }
