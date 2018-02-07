@@ -1,19 +1,22 @@
-  <mat-card>
-    <mat-card-header>
+<mat-card>
+  <mat-card-header>
 
-      <mat-card-title class="headline">{{book.title}}</mat-card-title>
-      <mat-card-subtitle>{{book.author}}</mat-card-subtitle>
-    </mat-card-header>
-    <div mat-card-image>
-      <img src="{{book.image_url}}" alt="Photo of {{book.title}}">
-    </div>
-    <mat-card-content>
-      <p>
-        <span class="headline">Synopsis:</span> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      </p>
-    </mat-card-content>
-    <mat-card-actions>
-      <button mat-button disabled class="price">$ {{book.price}}</button>
-      <button mat-raised-button color="primary" [disabled]="book.added" (click)=addedToCart(book)>Add To Cart</button>
-    </mat-card-actions>
-  </mat-card>
+    <mat-card-title class="headline">{{book.title}}</mat-card-title>
+
+    <mat-card-subtitle>{{book.author}}</mat-card-subtitle>
+  </mat-card-header>
+  <div mat-card-image>
+    <img src="{{book.image_url}}" alt="Photo of {{book.title}}">
+  </div>
+  <mat-card-content>
+    <p>
+      <span class="headline">Synopsis:</span> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+      ex ea commodo consequat.
+    </p>
+    <img class="icon" src="https://cdn1.iconfinder.com/data/icons/interface-4/96/Cursor-Move-512.png" />
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-button disabled class="price">$ {{book.price}}</button>
+    <button mat-raised-button color="primary" [disabled]="book.added" (click)=addedToCart(book)>Add To Cart</button>
+  </mat-card-actions>
+</mat-card>

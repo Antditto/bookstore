@@ -1,7 +1,7 @@
 <mat-card>
   <form (ngSubmit)="onSubmit()" #searchForm="ngForm">
     <mat-form-field class="search-field">
-      <input matInput placeholder="Search:" type="text" id="params" [(ngModel)]="search.params" name="params" #params="ngModel"/>
+      <input matInput placeholder="Search:" type="text" id="params" [(ngModel)]="search.params" name="params" #params="ngModel" />
       <mat-icon matSuffix>search</mat-icon>
       <button type="submit" style="display:none">hidden submit</button>
     </mat-form-field>

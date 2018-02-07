@@ -36,7 +36,7 @@ import { SearchPageComponent } from './search/search-page/search-page.component'
   providers: [
     SearchService,
     Ng2SearchPipe
-    ],
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

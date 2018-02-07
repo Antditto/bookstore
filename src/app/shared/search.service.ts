@@ -14,7 +14,7 @@ export class SearchService {
 
   getBooks(query) {
     return this._http.get('http://localhost:4200/assets/books.json')
-    .map(res => res.json());
+      .map(res => res.json());
   }
 
 }

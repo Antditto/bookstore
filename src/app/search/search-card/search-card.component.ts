@@ -10,8 +10,8 @@ export class SearchCardComponent implements OnInit {
   @Input() book;
   added = false;
 
-  openSnackBar() {
-    this.snackBar.open(this.book.title, 'Added to Cart', {
+  openSnackBar(book) {
+    this.snackBar.open(book.title, 'Added to Cart', {
       duration: 2000,
     });
   }
@@ -27,7 +27,7 @@ export class SearchCardComponent implements OnInit {
     }
     a = a.concat(current);
     localStorage.setItem('cart', JSON.stringify(a));
-    this.openSnackBar();
+    this.openSnackBar(book);
   }
 
   constructor(

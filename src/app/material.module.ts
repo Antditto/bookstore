@@ -12,7 +12,7 @@ import {
   MatTooltipModule,
   MatSnackBarModule
 } from '@angular/material';
-import {MatIconModule} from '@angular/material/icon';
+import { MatIconModule } from '@angular/material/icon';
 
 @NgModule({
   imports: [

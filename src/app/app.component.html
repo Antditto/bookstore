@@ -1,31 +1,31 @@
-  <mat-toolbar color="primary">
-    <mat-toolbar-row>
-      <span [routerLink]="['/']">MyBookStore</span>
+<mat-toolbar color="primary">
+  <mat-toolbar-row>
+    <span [routerLink]="['/']">MyBookStore</span>
 
-      <span class="navbar-spacer"></span>
+    <span class="navbar-spacer"></span>
 
-      <div fxShow="true" fxHide.lt-md="true">
-        <button mat-button>Best Sellers</button>
-        <button mat-button>Shopping Cart</button>
-        <button mat-button>Settings</button>
-        <button mat-button>Profile</button>
-        <button mat-button [routerLink]="['/search']">Search</button>
-      </div>
-      <div fxShow="true" fxHide.gt-sm="true">
-        <button mat-icon-button color="secondary" [routerLink]="['/search']">
+    <div fxShow="true" fxHide.lt-md="true">
+      <button mat-button>Best Sellers</button>
+      <button mat-button>Shopping Cart</button>
+      <button mat-button>Settings</button>
+      <button mat-button>Profile</button>
+      <button mat-button [routerLink]="['/search']">Search</button>
+    </div>
+    <div fxShow="true" fxHide.gt-sm="true">
+      <button mat-icon-button color="secondary" [routerLink]="['/search']">
          <mat-icon>search</mat-icon>
        </button>
-        <button mat-icon-button color="secondary" [matMenuTriggerFor]="menu">
+      <button mat-icon-button color="secondary" [matMenuTriggerFor]="menu">
           <mat-icon>menu</mat-icon>
         </button>
-        <mat-menu #menu="matMenu">
-          <button mat-menu-item>Best Sellers</button>
-          <button mat-menu-item>Shopping Cart</button>
-          <button mat-menu-item>Settings</button>
-          <button mat-menu-item>Profile</button>
-        </mat-menu>
-      </div>
-    </mat-toolbar-row>
-  </mat-toolbar>
+      <mat-menu #menu="matMenu">
+        <button mat-menu-item>Best Sellers</button>
+        <button mat-menu-item>Shopping Cart</button>
+        <button mat-menu-item>Settings</button>
+        <button mat-menu-item>Profile</button>
+      </mat-menu>
+    </div>
+  </mat-toolbar-row>
+</mat-toolbar>
 
 <router-outlet></router-outlet>

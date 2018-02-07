@@ -11,14 +11,14 @@ export class Ng2SearchPipe implements PipeTransform {
 
     const toCompare = term.toLowerCase();
 
-    return items.filter(function (item: any) {
+    return items.filter(function(item: any) {
       for (let property in item) {
         if (item[property] === null) {
           continue;
         }
-         if (item[property].toString().toLowerCase().includes(toCompare)) {
-           return true;
-         }
+        if (item[property].toString().toLowerCase().includes(toCompare)) {
+          return true;
+        }
       }
       return false;
     });
