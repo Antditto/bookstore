@@ -10,7 +10,7 @@ import { SearchCardComponent } from '../search-card/search-card.component';
   styleUrls: ['./search-page.component.css']
 })
 export class SearchPageComponent implements OnInit {
-  @ViewChild('cmp') child: QueryList<SearchPageComponent>;
+  @ViewChild('cmp') child: QueryList<SearchCardComponent>;
   queryString;
   search = {
     params: ''
