@@ -8,7 +8,9 @@ import {
   MatCardModule,
   MatGridListModule,
   MatMenuModule,
-  MatSidenavModule
+  MatSidenavModule,
+  MatTooltipModule,
+  MatSnackBarModule
 } from '@angular/material';
 import {MatIconModule} from '@angular/material/icon';
 
@@ -22,7 +24,9 @@ import {MatIconModule} from '@angular/material/icon';
     MatIconModule,
     MatGridListModule,
     MatMenuModule,
-    MatSidenavModule
+    MatSidenavModule,
+    MatTooltipModule,
+    MatSnackBarModule
   ],
   exports: [
     MatButtonModule,
@@ -33,7 +37,9 @@ import {MatIconModule} from '@angular/material/icon';
     MatIconModule,
     MatGridListModule,
     MatMenuModule,
-    MatSidenavModule
+    MatSidenavModule,
+    MatTooltipModule,
+    MatSnackBarModule
   ],
 })
 
