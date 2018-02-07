@@ -1,6 +1,7 @@
-# Ng5Material
+# Book Store
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
+Hosted at (https://bookstore-search.herokuapp.com)
 
 ## Easy Startup
 
